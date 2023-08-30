@@ -1,2 +1,0 @@
-#!/bin/bash
-find ./ -type f -name '[A-Z]*' -print0 | xargs -0 -I {} cp {} /tmp/u
