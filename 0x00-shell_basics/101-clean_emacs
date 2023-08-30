@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -maxdepth 1 -type f -name '*~' -exec rm {} +
+find /path/to/your/directory -type f -name '*~' -delete
