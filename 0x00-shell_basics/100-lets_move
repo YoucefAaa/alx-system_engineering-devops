@@ -1,0 +1,2 @@
+#!/bin/bash
+find ./  -type f -name '[A-Z]*' -exec cp {} /tmp/u \;
