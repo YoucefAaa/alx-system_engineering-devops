@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -1p --group-directories-first | grep -v /$ | sed 's/^/1/' | sort | sed 's/^1//' && ls -d1p .*/ | sed 's/^/0/' | sort | sed 's/^0//'
+ls -amvp
